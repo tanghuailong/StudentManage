@@ -19,7 +19,7 @@ public class TestStudent {
 		SessionFactory sessionfactory = config.buildSessionFactory(serviceRegister);
 		//Session session = sessionfactory.getCurrentSession();
 		SchemaExport schemaExport = new SchemaExport(config);
-		
+		//sdfkj
 		schemaExport.create(true,true);
 	}
 
